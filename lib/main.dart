@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moha_ui_challenges/challenges_modules/day1_challenge/day1_view.dart';
+import 'package:moha_ui_challenges/challenges_modules/day2_challenge/day2_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DayOneChallenge(),
+      //home: const DayOneChallenge(),
+      home: const DayTwoChallenge(),
     );
   }
 }
