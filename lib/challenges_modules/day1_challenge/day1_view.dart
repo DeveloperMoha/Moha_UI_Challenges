@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:moha_ui_challenges/core/components/shared_widgets.dart';
@@ -87,7 +85,7 @@ class DayOneChallenge extends StatelessWidget {
                     color: Colors.grey[100],
                   ),
                   child: Padding(
-                    padding: EdgeInsets.all(5.0),
+                    padding: const EdgeInsets.all(5.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -155,7 +153,7 @@ class DayOneChallenge extends StatelessWidget {
                     color: Colors.grey[100],
                   ),
                   child: Padding(
-                    padding: EdgeInsets.all(5.0),
+                    padding: const EdgeInsets.all(5.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
