@@ -21,3 +21,16 @@ class Day2Constants {
   static const plant =
       "assets/images/day2_images/7320205_berry_plant_hand_drawn_abstract_icon.png";
 }
+
+class Day3Constants {
+  static const plant1 = "assets/images/day3_images/day3 (1).png";
+  static const plant2 = "assets/images/day3_images/day3 (2).png";
+  static const plant3 = "assets/images/day3_images/day3 (4).png";
+  static const plant4 = "assets/images/day3_images/day3 (5).png";
+  static const plant5 = "assets/images/day3_images/day3 (6).png";
+  static const plant6 = "assets/images/day3_images/day3 (8).png";
+  static const plant7 = "assets/images/day3_images/day3 (9).png";
+  static const plant8 = "assets/images/day3_images/day3 (10).png";
+
+  static int selectedIndex = 1;
+}
