@@ -60,6 +60,7 @@ flutter:
   assets:
     - assets/images/day1_images/
     - assets/images/day2_images/
+    - assets/images/day3_images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
