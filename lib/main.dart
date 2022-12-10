@@ -3,6 +3,8 @@ import 'package:moha_ui_challenges/challenges_modules/day1_challenge/day1_view.d
 import 'package:moha_ui_challenges/challenges_modules/day2_challenge/day2_view.dart';
 import 'package:moha_ui_challenges/challenges_modules/day3_challenge/screen1_view.dart';
 import 'package:moha_ui_challenges/challenges_modules/day3_challenge/screen2_view.dart';
+import 'package:moha_ui_challenges/challenges_modules/day4_challenge/main_screen_view.dart';
+import 'package:moha_ui_challenges/challenges_modules/day4_challenge/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: const DayOneChallenge(),
-      home: const DayThreeFirstScreen(),
+      home: const DayFourWelcomeScreen(),
     );
   }
 }
