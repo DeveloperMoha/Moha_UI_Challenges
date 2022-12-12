@@ -58,9 +58,11 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/images/avatar/
     - assets/images/day1_images/
     - assets/images/day2_images/
     - assets/images/day3_images/
+    - assets/images/day4_images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -80,7 +82,9 @@ flutter:
     - family: moha2
       fonts:
         - asset: assets/fonts/mohafont2.ttf
-        
+    - family: moha_ubunto
+      fonts:
+        - asset: assets/fonts/Ubuntu-Medium.ttf        
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

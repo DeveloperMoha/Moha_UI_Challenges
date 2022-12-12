@@ -1,3 +1,12 @@
+class AvatarImages {
+  static const avatarMan1 = "assets/images/avatar/man1.png";
+  static const avatarMan2 = "assets/images/avatar/man2.png";
+  static const avatarMan3 = "assets/images/avatar/man3.png";
+  static const avatarGirl1 = "assets/images/avatar/girl1.png";
+  static const avatarGirl2 = "assets/images/avatar/girl2.png";
+  static const avatarGirl3 = "assets/images/avatar/girl3.png";
+}
+
 class Day1Constants {
   static const promoImage1 = "assets/images/day1_images/one.jpg";
   static const promoImage2 = "assets/images/day1_images/two.jpg";
@@ -33,4 +42,16 @@ class Day3Constants {
   static const plant8 = "assets/images/day3_images/day3 (10).png";
 
   static int selectedIndex = 1;
+}
+
+class Day4Constants {
+  static const welcome1 = "assets/images/day4_images/welcome1.jpg";
+  static const welcome2 = "assets/images/day4_images/welcome2.jpg";
+  static const art1 = "assets/images/day4_images/art1.jpg";
+  static const art2 = "assets/images/day4_images/art2.jpg";
+  static const art3 = "assets/images/day4_images/art3.jpg";
+  static const art4 = "assets/images/day4_images/art4.jpg";
+  static const art5 = "assets/images/day4_images/art5.jpg";
+  static const art6 = "assets/images/day4_images/art6.jpg";
+  static const art7 = "assets/images/day4_images/art7.jpg";
 }
